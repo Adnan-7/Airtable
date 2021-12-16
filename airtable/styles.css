@@ -3,7 +3,10 @@
 }
 
 .product {
-  margin-bottom: 2rem;
+  display: block;
+
+  margin-bottom: 3rem;
+  color: var(--clr-grey-1);
 }
 .product img {
   width: 100%;
