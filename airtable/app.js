@@ -1,5 +1,5 @@
 const result = document.querySelector('.result');
-const fetchProduct = async () => {
+const fetchProducts = async () => {
   try {
     const { data } = await axios.get('/api/airtable');
     const products = data
@@ -20,4 +20,4 @@ const fetchProduct = async () => {
   }
 };
 
-fetchProduct();
+fetchProducts();
